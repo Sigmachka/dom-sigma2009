@@ -1,0 +1,63 @@
+body{background: grey;}
+
+{
+padding: 0;
+margin: 0;
+box-sizing: borden-box;
+}
+
+main{
+widht: 70%;	
+padding: 50px;
+margin: auto;
+background: #ffffff;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.photo
+{
+
+widht: 200px;	
+padding: 100px;
+margin: 10px;
+background: #000000;
+}
+
+
+h1{
+width: 100%;
+text-align: center;
+font-size: 40px;
+
+
+}
+
+.photo7 {
+background-image: url(../img/img7.jpg);
+
+}
+
+
+
+.photo7
+{
+
+widht: 200px;	
+padding: 100px;
+margin: 10px;
+background-image: url(../img/7.jpg);
+box-shadow: 0 0 10000px 10000px rgb(232,0,0,0.5);
+}
+
+@font-face {
+font-family: скибидидоп.ttf;
+src: url(../font/228.ttf);
+}
+
+body{
+scrollbar-color:ffffff ;
+font-family: 228.ttf;
+
+}
